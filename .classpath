@@ -14,20 +14,21 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -36,5 +37,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/jcommander-1.82.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/jquery-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/testng-7.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/k/commons-io-2.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/k/commons-io-2.15.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/k/commons-io-2.15.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/k/commons-io-2.15.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/shash/Downloads/k/commons-io-2.15.0-test-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
